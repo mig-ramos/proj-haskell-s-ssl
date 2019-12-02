@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: 
+Disallow: /static
+Disallow: /assinante
+Disallow: /listagem
+Disallow: /cadastro
+Disallow: /cadastrar
+Disallow: /entrar
+Disallow: /sair
+Disallow: /admin

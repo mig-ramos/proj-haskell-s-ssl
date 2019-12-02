@@ -1,0 +1,53 @@
+header p {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Trochut', cursive;
+    /* font-family: 'Sail', cursive; */
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #444;
+    margin: 0 0;
+}
+
+header a:link {
+    text-decoration: none;
+}
+
+header img {
+    width: 50px;
+    margin: 10px 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+#sobrenos img {
+    width: 200px;
+    max-width: 320px
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    form,
+    p,
+    table {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    form,
+    p,
+    table {
+        font-size: 1em;
+    }
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 767px) {
+    form,
+    p,
+    table {
+        font-size: 1.3em;
+    }
+}

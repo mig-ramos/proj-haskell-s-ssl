@@ -1,0 +1,26 @@
+<div class="w3-container">
+    <h1>TEMAS RELEVANTES
+    <p>Listagem dos Interesses dos Internautas
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable">
+        <thead>
+            <tr class="w3-blue">
+                <th>
+                    NOME
+                <th>
+                    EMAIL
+                <th>
+                    INTERESSE
+                <th>
+        <tbody>
+            $forall Entity aid cadastro <- cadastros 
+                <tr>
+                    <td id=#{"nome" ++ show (fromSqlKey aid)}>
+                        #{cadastroNome cadastro}
+                    <td>
+                        #{cadastroEmail cadastro}
+                    <td>
+                        #{show $ cadastroInteresse cadastro}
+                    <td>
+                        <form method=post action=@{ApagarCadastroR aid}>
+                            <button class="w3-red">
+                                X

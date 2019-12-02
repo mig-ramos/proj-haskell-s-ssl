@@ -1,0 +1,4 @@
+<div class="w3-container w3-center">
+    <h1>Area do assinante
+    <div class="w3-center">
+        <img class="w3-image" src=@{StaticR img_usuario_jpg} th alt="Área do Usuário" style="width:100%; max-width:600px" title="Área do Usuário">

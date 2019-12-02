@@ -1,0 +1,22 @@
+<header id="myHeader" class="w3-container">
+    <div>
+        <p class="w3-xxlarge w3-center w3-text-write">
+            <a href="" title=""> <img title="" alt="" src="../static/img/logo.png">Eletrônica Universal
+    <div class="w3-bar w3-blue">
+        <a href=@{HomeR} class="w3-bar-item w3-button w3-hide-small" accesskey="1">Home
+        <a href="#tema" class="w3-bar-item w3-button w3-hide-small" accesskey="2">Tema
+        <a href="#categorias" class="w3-bar-item w3-button w3-hide-small" accesskey="3">Categorias
+        <a href="#sobrenos" class="w3-bar-item w3-button w3-hide-small" accesskey="4">Sobre nós
+        <a href="#contato" class="w3-bar-item w3-button w3-hide-small" accesskey="5">Contato
+        <a href=@{UsuarioR} class="w3-bar-item w3-button w3-hide-small w3-green" accesskey="6">Assine a Revista!
+        <a href=@{EntrarR} class="w3-bar-item w3-button w3-hide-small w3-yellow" accesskey="7">Sou Assinante!
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;
+
+    <div id="demo" class="w3-bar-block w3-blue-grey w3-hide w3-hide-large w3-hide-medium">
+        <a href=@{HomeR} class="w3-bar-item w3-button ">Home
+        <a href="#tema" class="w3-bar-item w3-button">Tema
+        <a href="#categorias" class="w3-bar-item w3-button ">Categorias
+        <a href="#sobrenos" class="w3-bar-item w3-button ">Sobre nós
+        <a href="#contato" class="w3-bar-item w3-button ">Contato
+        <a href=@{UsuarioR} class="w3-bar-item w3-button ">Assinar Revista!
+        <a href=@{EntrarR} class="w3-bar-item w3-button ">Sou Assinante!

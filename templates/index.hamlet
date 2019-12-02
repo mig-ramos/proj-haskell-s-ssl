@@ -1,0 +1,148 @@
+<main class="w3-container">
+    <section id="slider">
+        <div class="w3-content w3-section" style="max-width:800px">
+            <img class="mySlides" src="../static/slides/arduino-1.jpg" style="width:100%; max-height:485px">
+            <img class="mySlides" src="../static/slides/bancada-1.jpg" style="width:100%; max-height:485px">
+            <img class="mySlides" src="../static/slides/capacitor-1.jpg" style="width:100%; max-height:485px">
+            <img class="mySlides" src="../static/slides/energia-espiritual-1.jpg" style="width:100%; max-height:485px">
+            <img class="mySlides" src="../static/slides/magnetism-1.png" style="width:100%; max-height:485px">
+            <img class="mySlides" src="../static/slides/magnetism-2.png" style="width:100%; max-height:485px">
+            <img class="mySlides" src="../static/slides/sistema-solar-1.jpg" style="width:100%; max-height:485px">
+
+    <section id="tema">
+        <div class="w3-row-padding w3-panel w3-center w3-margin-top w3-container w3-card-4 w3-blue">
+            <div class="w3-third">
+                <div class="w3-container">
+
+            <div class="w3-third w3-center">
+                <h2>Opinião
+                <p>Como está o estudo da Eletrônica?
+
+            <div class="w3-third">
+                <div class="w3-container">
+                    <div style="position:relative;bottom:0;right:30px;" class="w3-right w3-tooltip w3-display-bottomright">
+                        <span class="w3-padding">Topo</span>&nbsp;
+                        <a class="" href="#myHeader"><span class="w3-xlarge">
+                                <i class="fa fa-chevron-circle-up">
+
+        <div class="w3-padding w3-white w3-display-container">
+            <h2>Eletrônica
+            <p>Eletrônica é a ciência que estuda o comportamento do elétron num circuito! Ao mesmo tempo podemos perceber que a Eletrônica está a um nível muito acima do que achamos que conhecemos. Digo assim porque o conhecimento do próprio ser humano
+                com seus estímulos elétricos e uma capacidade mental utilizada de menos de 3%, temos muito a aprender! Pelo menos no tempo em que passei em escola estudando, se explicava e se convencia do funcionamento de qualquer componente usando
+                somente a matemática.
+            <p>Por outro lado existe outras formas de explicar que tal fórmula matemática se aplica a um componente devido ao funcionamento físico da “coisa”, é como pudessemos pegar um elétron de carona, montasse nele e ver como ele passa e faz determinadas 
+                “coisas”, neste ponto o indivíduo estaria mais apto a entender a matemática aplicada ao determinado componente. Assim a Eletrônica fica mais fácil de entender. Como tudo no Universo é formado de átomos, podemos ver a extensão do assunto
+                Eletrônica, neste SÍTIO vamos no deter ao funcionamento individual de cada componente e também aplicações dos mesmos, acredito de desta forma seja mais proveitoso este estudo. O que percebo nos últimos tempos é que o estudo da Eletrônica
+                Básica, talvez “Básica” não seria o termo correto, talvez o certo seria os Fundamentos da Eletrônica, estão sendo negligenciados em detrimento da microeletrônica “caixa preta”, com isso se perderá a sua essência criando uma lacuna
+                tão importante para os estudantes de Eletrônica. O estudo da Base “o Fundamento” cria um sólido conhecimento e consciência do lidar com isso no dia a dia. Os fundamentos estão no começo da Eletrônica Analógica e, em seguida vem a Eletrônica
+                Digital naturalmente.
+            <p>Em parte, esta mudança se deve a modernização dos equipamentos Eletrônicos que evidentemente é benéfico, o que não se pode é abandonar os conceitos básicos e igualmente importantes para o aprendizado. Existem escolas que se diz tão modernas hoje em dia que o curso de Eletrônica se baseia em um, dois ou três kits de montagem, esta modernidade eu dispenso! O mais sensato é ter pelo menos a maioria dos componentes que seja possível fazer as experiências necessárias, traçar
+                as “curvas” dos componentes e explicar todos os fundamentos da Eletrônica. Como resultado desta modernidade no ensino de Eletrônica, os alunos saem dos cursos com a falsa sensação que fez um curso de Eletrônica, quando vai fazer um
+                estágio ou pôr a prova o que aprendeu, vê que não aprendeu quase nada! Deve haver exceções...
+            <p>É o eu penso, fico por aqui!
+            <p><i>Miguel Arcanjo
+            <hr>
+    
+    <section id="categorias">
+        <div class="w3-row-padding w3-panel w3-center w3-margin-top w3-container w3-card-4 w3-blue">
+            <div class="w3-third">
+                <div class="w3-container">
+
+            <div class="w3-third w3-center">
+                <h2>Categorias
+                <p>Os vários nichos da Eletrônica:
+
+            <div class="w3-third">
+                <div class="w3-container">
+                    <div style="position:relative;bottom:0;right:30px;" class="w3-right w3-tooltip w3-display-bottomright">
+                        <span class="w3-padding">Topo</span>&nbsp;
+                        <a class="" href="#myHeader"><span class="w3-xlarge">
+                                <i class="fa fa-chevron-circle-up">
+
+        <div class="w3-row w3-border">
+            <article class="w3-quarter w3-container">
+                <header>
+                    <h3>Fundamentos
+
+                <p class="">
+                    Hoje com toda as tecnologias a disposição, ficamos com uma deficiência pedagógica. Com o aumento da complexidade e a quantidade de microcircuitos e nanocircuitos ficou humanamente impossível a análise detalhada dos circuitos. Hoje em dia as análises ficam
+                    por conta de entradas e saídas de "caixas pretas", não se importando com o funcionamento interno dos mesmos. Aqui daremos importância ao fundamento na origem do funcionamento de cada componente eltrônico.
+
+            <article class="w3-quarter w3-container">
+                <header>
+                    <h3>Eletrônica Digital
+
+                <p class="">
+                    Aqui nós vamos ver que 1 + 1 = 0 e vai 1. Como exemplo: o transistor pode funcionar na eletrônica analógica e digital. Na eletrônica analógica este componente é projetado (polarizado) para ter sua saída variável com um determinado ganho de acordo com
+                    o sinal de entrada. O mesmo componente na eletrônica digital muda-se a polarização para não ter variações proporcionais em relação ao sinal de entrada mas, no regime de tudo ou nada ou seja, 1 ou 0.
+
+            <article class="w3-quarter w3-container">
+                <header>
+                    <h3>IOT (Internet of Things)
+
+                <p class="">
+                    O mundo físico conectado em rede (internet) através de seus sensores pegando informações das mais variadas formas e tipos, transmitindo, processando, transformando, armazendo, controlando tudo em nossa volta. Vamos dar ênfase ao Arduino, mostrando as
+                    mais diversas experências e seus resultados. É um mundo fascinante!
+
+            <article class="w3-quarter w3-container">
+                <header>
+                    <h3>Projetos
+
+                <p class="">
+                    Sempre dando importância às analises dos circuitos e estudando a função de cada componente do circuito. Estas análises são importantes, a convivência diária e o fato de "mascar a massa cinzenta" faz com que a teoria na prática seja a mesma. Não é verdade
+                    a frase que diz "Na prática, a teoria é outra".
+
+    <section id="sobrenos">
+        <div class="w3-row-padding w3-panel w3-center w3-margin-top w3-container w3-card-4 w3-blue">
+            <div class="w3-third">
+                <div class="w3-container">
+
+            <div class="w3-third w3-center">
+                <h2>Sobre
+                <p>Nossa Equipe:
+
+            <div class="w3-third">
+                <div class="w3-container">
+                    <div style="position:relative;bottom:0;right:30px;" class="w3-right w3-tooltip w3-display-bottomright">
+                        <span class="w3-padding">Topo</span>&nbsp;
+                        <a class="" href="#myHeader"><span class="w3-xlarge">
+                                <i class="fa fa-chevron-circle-up">
+
+        <div class="w3-row-padding w3-center w3-margin-top w3-container">
+            <article class="w3-third w3-card w3-container" style="min-height:470px">
+                <header>
+                    <h2>Miguel
+
+                <img src="../static/img/miguel.png" alt="Foto do Miguel" title="Foto do Miguel Arcanjo">
+                <p>Miguel Arcanjo - 60 anos Atualmente aposentado da Usina Siderurgica Usiminas, Estudante da FATEC - Sistemas para Internet, fiz estágio na Prefeitura Municipal São Vicente na area de TI e como hobby a Eletrônica.
+
+            <article class="w3-third w3-card w3-container" style="min-height:470px" ">
+                <header>
+                    <h3>Luiz
+
+                <img src=" ../static/img/luiz.jpeg" alt="Foto do Luiz" title="Foto do Luiz Sorbello">
+                <p>Luiz Fernando Sorbello - 49 anos Comerciante, Estudante da FATEC - Sistemas para Internet, trabalhando na area de TI (manutenção de equipamentos e automação comercial) a mais de 20 anos.
+
+            <article class=" w3-third w3-card w3-container " style=" min-height:470px ">
+                <header>
+                    <h3>Gustavo
+
+                <img src=" ../static/img/gustavo.png " alt="Foto do Gustavo" title="Foto do Gustavo Martins">
+                <p>Gustavo Martins - 22 anos Atualmente trabalhando como representante de vendas, na area de tecnologia fiz estágio no Hospital Ana Costa na area de TI e participei do projeto na FATEC do grupo ALSAPEM durante o 5° ciclo do curso.
+    
+    <section id="contato">
+        <div class="w3-row-padding w3-panel w3-center w3-margin-top w3-container w3-card-4 w3-blue">
+            <div class="w3-third">
+                <div class="w3-container">
+
+            <div class="w3-third w3-center">
+                <h2>Contato
+
+            <div class="w3-third">
+                <div class="w3-container">
+                    <div style="position:relative;bottom:0;right:30px;" class="w3-right w3-tooltip w3-display-bottomright">
+                        <span class="w3-padding">Topo</span>&nbsp;
+                        <a class="" href="#myHeader"><span class="w3-xlarge">
+                                <i class="fa fa-chevron-circle-up">
+        <div class="w3-container w3-center">
+            <img src=@{StaticR img_mail_png} height="120" width="120"> <br> <a href="mailto:siderbit@gmail.com? subject=Eletrônica Universal">Entre em contato conosco!

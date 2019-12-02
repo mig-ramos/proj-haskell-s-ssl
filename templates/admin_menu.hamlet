@@ -1,0 +1,14 @@
+<header id="myHeader" class="w3-container">
+    <div>
+        <p class="w3-xxlarge w3-center w3-text-write">
+            <a href="" title=""> <img title="" alt="" src="../static/img/logo.png">Eletrônica Universal
+    <div class="w3-bar w3-blue">
+        <a href=@{AdminR} class="w3-bar-item w3-button w3-hide-small w3-green" accesskey="1">Home
+        <a href=@{ListCadastroR} class="w3-bar-item w3-button w3-hide-small" accesskey="2">Interesse
+        <a href=@{SairR} class="w3-bar-item w3-button w3-hide-small w3-yellow" accesskey="6">FECHAR - Area Administrativa
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;
+
+    <div id="demo" class="w3-bar-block w3-blue-grey w3-hide w3-hide-large w3-hide-medium">
+        <a href="#" class="w3-bar-item w3-button ">Home
+        <a href=@{ListCadastroR} class="w3-bar-item w3-button">Interesse
+        <a href=@{SairR} class="w3-bar-item w3-button ">FECHAR - Area Administrativa

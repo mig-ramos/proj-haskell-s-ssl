@@ -1,0 +1,582 @@
+/* 
+    Created on : 04/11/2019, 00:14:47
+    Author     : miguel
+*/
+
+
+/*
+link menu cinca claro #aaa
+quase branco #fcfcfc
+hover laranja #ffbc15
+ativo marrom #b27d12
+bg claro #fbfbfb
+verde limão #19ff90
+roxo claro #9114cc
+roxo escuro #7c09b2
+*/
+
+
+/*CABECALHO*/
+
+.main_header {
+    padding: 0;
+    border-bottom: 1px solid #ffbc15;
+    background-image: -moz-linear-gradient(#ffbc15, #fff 90%);
+    background-image: -webkit-linear-gradient(#ffbc15, #fff 90%);
+    background-image: -o-gradient(#ffbc15, #fff 90%);
+}
+
+
+/*HEADER*/
+
+.main_header_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ffbc15;
+    background-image: -moz-linear-gradient(#ffbc15, #fff 90%);
+    background-image: -webkit-linear-gradient(#ffbc15, #fff 90%);
+    background-image: -o-gradient(#ffbc15, #fff 90%);
+    z-index: 99;
+}
+
+header p {
+    /*    font-family: 'Playfair Display', serif;*/
+    /*font-family: 'Trochut', cursive;*/
+    font-family: 'Sail', cursive;
+    color: #712F79;
+}
+
+.logo img {
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*FIM LOGO*/
+
+
+/*MENU PRINCIPAL*/
+
+nav select {
+    display: none;
+    /* this is just for the mobile display */
+}
+
+nav ul {
+    text-align: center;
+    display: block;
+    z-index: 999999;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px 3px 20px;
+    margin-left: 30px;
+    position: relative;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #976391;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #712F79;
+    text-decoration: none;
+}
+
+nav ul li span {
+    position: absolute;
+    right: -12px;
+    bottom: 6px;
+    width: 7px;
+    height: 8px;
+    margin: 0 0 0 3px;
+    float: right;
+    display: block;
+    background: url('../img/nav_arrow.png') no-repeat left -8px;
+    font: 0/0 a;
+}
+
+nav ul li.current {
+    border-bottom: 2px solid #ffbc15;
+}
+
+nav ul li.current a {
+    color: #ffbc15;
+    cursor: default;
+}
+
+nav ul li.current a span {
+    background: url('../img/nav_arrow.png') no-repeat left 0;
+}
+
+nav ul li.current ul li a {
+    cursor: pointer;
+}
+
+
+/*===== sub_menu Style =======*/
+
+nav ul li ul.sub_menu {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-top: 5px solid #ffbc15;
+    display: none;
+    z-index: 999999;
+    -moz-box-shadow: 0px 6px 7px #121012;
+    -webkit-box-shadow: 0px 6px 7px #121012;
+    box-shadow: 0px 6px 7px #121012;
+}
+
+nav ul li ul.sub_menu li.arrow_top {
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    width: 13px;
+    height: 8px;
+    display: block;
+    border: none;
+    background: url('../img/arrow_top_la.png') no-repeat left top;
+}
+
+nav ul li ul.sub_menu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ececec;
+}
+
+nav ul li ul.sub_menu li a {
+    white-space: nowrap;
+    width: 250px;
+    padding: 12px;
+    font: 13px Arial, tahoma, sans-serif;
+    text-transform: capitalize;
+    color: #777;
+    text-align: left;
+}
+
+nav ul li ul.sub_menu li a:hover {
+    background: #f9f9f9;
+    color: #333;
+}
+
+nav ul li ul.sub_menu li a.subCurrent {
+    color: #e25d29;
+    cursor: default;
+}
+
+nav ul li ul.sub_menu li a.subCurrent:hover {
+    background: none;
+}
+
+
+/*FIM MENU PRINCIPAL*/
+
+
+/*===================== end Header style ======================*/
+
+
+/*SOCIAL SUPERIOR*/
+
+.social {
+    background-color: #ffe095;
+    padding-bottom: 1em;
+    padding-top: 1.2em;
+    /*margin-bottom: .5em;*/
+}
+
+
+/*MAIN_SOBRE*/
+
+.sobre {
+    margin-bottom: .5em;
+    background-color: #ffe095;
+}
+
+#main_sobre header {
+    border-bottom: #ffbc15 solid 1px;
+    margin-bottom: 1em;
+}
+
+#main_sobre h2 {
+    background-color: #ffbc15;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+#main_sobre .miguel img {
+    width: 40%;
+    padding: 1em;
+    margin: 0;
+}
+
+#main_sobre .luiz img {
+    width: 40%;
+    padding: 1em;
+    margin: 0;
+}
+
+#main_sobre .gustavo img {
+    width: 40%;
+    padding: 1em;
+    margin: 0;
+}
+
+
+/*====================== end Sobre =========================*/
+
+
+/*TEMA*/
+
+.tema {
+    background-color: #ffffff;
+}
+
+#main_tema header {
+    border-bottom: #ffbc15 solid 1px;
+    margin-bottom: .4em;
+    height: auto;
+}
+
+#main_tema h2 {
+    background-color: #ffbc15;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+#main_tema footer a {
+    color: #ffbc15;
+    text-decoration: underline;
+}
+
+
+/*=================== End Tema ======================*/
+
+
+/*CATEGORIAS*/
+
+.categorias {
+    background-color: #ffe095;
+}
+
+#main_categorias header {
+    border-bottom: #ffbc15 solid 1px;
+    margin-bottom: .4em;
+    height: auto;
+}
+
+#main_categorias h2 {
+    background-color: #ffbc15;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+#main_categorias footer a {
+    color: #ffbc15;
+    text-decoration: underline;
+}
+
+
+/*=================== End Especialidades ======================*/
+
+
+/*EVENTOS*/
+
+.capta {
+    margin-bottom: .5em;
+}
+
+#main_capta header {
+    border-bottom: #ffbc15 solid 1px;
+    margin-bottom: 1em;
+}
+
+#main_capta h2 {
+    background-color: #ffbc15;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+#main_capta .capta img {
+    width: 100%;
+    padding: 10px;
+    margin: 0 10 10 10;
+}
+
+
+/*================ End Eventos ======================*/
+
+
+/*GALERIA*/
+
+#my-galeria {
+    padding-top: 1em;
+}
+
+
+/*CONTATO*/
+
+.contato {
+    background-color: #ffffff;
+    color: #777;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+#main_contato header {
+    border-bottom: #ffbc15 solid 2px;
+    margin-bottom: 1em;
+}
+
+#main_contato h2 {
+    background-color: #ffbc15;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+#main_contato h3 {
+    color: #000;
+}
+
+.contato_form label {
+    display: block;
+    width: 100%;
+}
+
+.contato_form span {
+    font-size: .9em;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.contato_form .cem {
+    width: 100%;
+    /* border: none; */
+    background: #fff;
+    padding: 10px;
+}
+
+.contato_form textarea {
+    width: 100%;
+    /* border: none; */
+    background: #fff;
+    padding: 10px;
+}
+
+.contato_form .btn {
+    border: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875em;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form_load {
+    float: right;
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 1.5em;
+    width: 1.5em;
+    display: none;
+}
+
+
+/*================= End Contato =================*/
+
+
+/*BLOG*/
+
+
+/*.main_blog header{
+    margin-bottom: .3em;
+    height: 3em; 
+}
+.main_blog h2{
+    background-color: #ffbc15;
+    margin-bottom: 0.5em;
+    color:#fff;
+}
+
+.main_blog footer a{
+    color:#ffbc15;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.main_blog p{
+    padding: 0 .5em .3em .5em;
+}*/
+
+
+/*iframe{
+    width: 100%;
+    height: 100%;
+    border:0;
+    margin-bottom: 1em;   
+}*/
+
+
+/*==================End Local ========================*/
+
+
+/*MAIN_FOOTER*/
+
+.main_footer {
+    border-top: #ffbc15 solid 2px;
+    border-bottom: #ffbc15 solid 2px;
+    margin-top: 0em;
+    background-image: -moz-linear-gradient(#fff, #ffbc15 40%);
+    background-image: -webkit-linear-gradient(#fff, #ffbc15 40%);
+    background-image: -o-gradient(#fff, #ffbc15 40%);
+    color: #fff;
+    font-weight: 800;
+}
+
+.main_logo_footer img {
+    width: 100px;
+    height: auto;
+    background-color: #fff;
+}
+
+.main_footer .vcard h2,
+h3,
+p {
+    margin-bottom: 0;
+}
+
+.main_footer a {
+    color: #fff;
+}
+
+.main_footer a:hover {
+    color: #fff;
+}
+
+
+/*===================== end Footer Style =======================*/
+
+
+/*SEÇÃO SOCIAL*/
+
+.main_social a img {
+    float: none !important;
+    width: 36px;
+    height: auto;
+    margin: 10px 5px;
+}
+
+
+/*====================== end section social ======================*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /*    .destaques{
+            display: none;
+        }*/
+    #main_sobre article {
+        width: 100%;
+    }
+    #main_categorias .box-small {
+        width: 100%;
+    }
+    #main_contato .box-large {
+        width: 100%;
+    }
+    #main_capta .box-large {
+        width: 100%;
+    }
+    .main_footer article {
+        width: 70%;
+        margin: 0 25%;
+        padding-bottom: 1em;
+    }
+    .main_footer .logo {
+        margin: 0 0 10% 10%;
+        padding: 0;
+        /*display: none;*/
+    }
+    .main_footer .main_carimbo {
+        margin: 0 0 10% 10%;
+        padding: 0;
+    }
+    .main_footer .onde_estamos {
+        /*margin: 0 0 10% 15%;*/
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* nav */
+    nav ul li {
+        margin-left: 12px;
+    }
+    /*    .destaques{
+            display: initial;
+        }*/
+    #main_categorias .box-small {
+        width: 40.5%;
+        margin-right: 7%;
+    }
+    #main_categorias article {
+        margin-bottom: 1em;
+    }
+    .main_footer .logo,
+    .main_footer .blog,
+    .main_footer .onde_estamos {
+        width: 40.5%;
+        margin-right: 7%;
+    }
+    .main_footer .onde_estamos {
+        width: 40.5%;
+        margin-right: 7%;
+        clear: both;
+    }
+    .main_footer .sobre {
+        vertical-align: top;
+        width: 40.5%;
+        margin-right: 0;
+    }
+    .main_footer .main_carimbo {
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 767px) {
+    /* nav menu ul & select */
+    nav ul {
+        display: none;
+    }
+    nav select {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        cursor: pointer;
+        padding: 6px;
+        background: #f9f9f9;
+        border: 1px solid #e3e3e3;
+        color: #777;
+    }
+}

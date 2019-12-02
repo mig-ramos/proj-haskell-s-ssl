@@ -1,0 +1,17 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/        HomeR  GET 
+/ads.txt AdsR   GET
+/assinante      AssinanteR GET
+
+/cadastro   CadastroR GET POST
+/listagem   ListCadastroR GET
+/cadastro/#CadastroId/apagar    ApagarCadastroR POST
+
+/cadastrar UsuarioR GET POST
+/entrar    EntrarR  GET POST
+/sair      SairR    GET
+/admin     AdminR   GET
